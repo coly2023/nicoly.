@@ -31,6 +31,9 @@ body {
 }
 
 
-body {
-  background-image: url (2020-porsche-911-turbo);
+nav a: hover {
+    color: brown;
+    text-decoration: underline;
 }
+
+
