@@ -29,34 +29,31 @@ body {
    color: aqua;
     font-style: italic;
 }
-.borda {
-    nav a{
+.lista {
+        display: inline-block;
+        padding: 5%;
+        margin-right: 10%;
+        color: fuchsia;
+        padding: 5%;
+        border-color: black;
+        border-width: 20px;
+        border-style: solid;
+        border-radius: 12px 50px 2px 120px;
+    }
+
+nav a{
     text-transform: uppercase;
-    color: black;
+    text-align: center;
+    color: darkorchid;
     font-weight: 300;
     font-size: 100%;
     text-decoration: none ;
     border-color: black;
     border-width: 10px;
-    border-style: solid;
+    border-style: solid; 
+    backgound-color: black;
 }
-
-
-
-.centralizar {
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 1.5%;
-  padding: 30px 20px;
-  border-color: black;
-  border-width: 30px;
-  border-style: solid;
-  backgound-color: black;
-}
-
-body {
-  background-color: aquamarine;
-  text-align:center;
-}
+nav a: hover {
+    color: brown;
+    text-decoration: underline;
 }
